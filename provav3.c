@@ -12,7 +12,7 @@ int main(){
         printf("\nDigite a nota do aluno %i = ", 1+i);
         scanf("%f", &notas[i]);
         if(notas[i]<0 || notas[i]>10){
-            printf("Nota digitada inválida, digite uma nota entre 0 e 10.");
+            printf("Nota digitada inválida, digite uma nota entre 0 e 10!!!!");
         }else{
             media+=notas[i]; 
             i++;
